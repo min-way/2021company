@@ -159,32 +159,32 @@
 
   /* ----------company------------ */
   .headBot.company {height: 300px;}
-  .headTop.company.fixed {background: none;}
+  .headTop.company.fixed {position: absolute; position: absolute; background: none;}
   .contents.company {height: 100%;}
 
   /* ----------business------------ */
   .headBot.business {height: 300px;}
-  .headTop.business.fixed {background: none;}
+  .headTop.business.fixed {position: absolute; background: none;}
   .contents.business {height: 100%;}
 
   /* ----------jeongdo------------ */
   .headBot.jeongdo {height: 300px;}
-  .headTop.jeongdo.fixed {background: none;}
+  .headTop.jeongdo.fixed {position: absolute; background: none;}
   .contents.jeongdo {height: 100%;}
 
   /* ----------strategy------------ */
   .headBot.strategy {height: 300px;}
-  .headTop.strategy.fixed {background: none;}
+  .headTop.strategy.fixed {position: absolute; background: none;}
   .contents.strategy {height: 100%;}
 
   /* ----------ir------------ */
   .headBot.ir {height: 300px;}
-  .headTop.ir.fixed {background: none;}
+  .headTop.ir.fixed {position: absolute; background: none;}
   .contents.ir {height: 100%;}
 
   /* ----------hrs------------ */
   .headBot.hrs {height: 300px;}
-  .headTop.hrs.fixed {background: none;}
+  .headTop.hrs.fixed {position: absolute; background: none;}
   .contents.hrs {height: 100%;}
 
 } /* max-width:700px */

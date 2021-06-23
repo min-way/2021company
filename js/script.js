@@ -10,7 +10,6 @@ $(document).ready(function(){
 
   $(window).scroll(function(){
     let scrollY = $(window).scrollTop();
-    console.log(scrollY)
     if(menuPos<=scrollY){
       $(".headTop").addClass("fixed");
       $(".headTop").addClass("ani");
@@ -67,7 +66,6 @@ $(document).ready(function(){
 
   $(window).resize(function(){
     winWidth = $(window).innerWidth();
-    console.log(winWidth)
     $(".gnb").removeAttr("style");
     $(".lnb").removeAttr("style");
     $(".logo").removeClass("on");
@@ -90,11 +88,6 @@ $(document).ready(function(){
   function mobileView(on){
     if(on=="view"){
       $(".gnb>li").on("click",function(){
-        // if($(this).find(".menuBtn").hasClass("on")){
-        //   $(".lnb").stop().slideUp();
-        //   $(".menuBtn").removeClass("on");
-        //   return false;
-        // }
         $(".menuBtn").removeClass("on");
         $(this).find(".menuBtn").addClass("on");
         $(".lnb").stop().slideUp();
@@ -132,13 +125,11 @@ $(document).ready(function(){
   $(".subMenu ul li").click(function(){
     let subCheck = $(this).index();
     let loValue = $(this).text();
-    console.log(subCheck)
     $(".main>img").hide();
     $(".main>img").eq(subCheck).show();
     $(this).addClass("active").siblings().removeClass("active");
     $(".coSubTit").text(loValue);
     $(".coLocation").text(loValue);
   });
-
 
 });

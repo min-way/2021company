@@ -198,37 +198,37 @@
 /* ----------company------------ */
 .header.company {height: 450px; margin-bottom: 15px; background-image: url("../images/sub_bg_company.png"); background-repeat: no-repeat; background-size: cover; }
 .headTop.company {height: 130px; position: absolute; background: none;}
-.headTop.company.fixed {height: 130px; position: absolute; background: #EE3F22;}
+.headTop.company.fixed {height: 130px; position: fixed; background: #EE3F22;}
 .headBot.company {width: 100%; height: 200px; display: flex; align-items: center; justify-content: center;}
 
 /* ----------business------------ */
 .header.business {height: 450px; margin-bottom: 15px; background-image: url("../images/sub_bg_business.png"); background-repeat: no-repeat; background-size: cover; }
 .headTop.business {height: 130px; position: absolute; background: none;}
-.headTop.business.fixed {height: 130px; position: absolute; background: #EE3F22;}
+.headTop.business.fixed {height: 130px; position: fixed; background: #EE3F22;}
 .headBot.business {width: 100%; height: 200px; display: flex; align-items: center; justify-content: center;}
 
 /* ----------jeongdo------------ */
 .header.jeongdo {height: 450px; margin-bottom: 15px; background-image: url("../images/sub_bg_jeongdo.png"); background-repeat: no-repeat; background-size: cover; }
 .headTop.jeongdo {height: 130px; position: absolute; background: none;}
-.headTop.jeongdo.fixed {height: 130px; position: absolute; background: #EE3F22;}
+.headTop.jeongdo.fixed {height: 130px; position: fixed; background: #EE3F22;}
 .headBot.jeongdo {width: 100%; height: 200px; display: flex; align-items: center; justify-content: center;}
 
 /* ----------strategy------------ */
 .header.strategy {height: 450px; margin-bottom: 15px; background-image: url("../images/sub_bg_strategy.png"); background-repeat: no-repeat; background-size: cover; }
 .headTop.strategy {height: 130px; position: absolute; background: none;}
-.headTop.strategy.fixed {height: 130px; position: absolute; background: #EE3F22;}
+.headTop.strategy.fixed {height: 130px; position: fixed; background: #EE3F22;}
 .headBot.strategy {width: 100%; height: 200px; display: flex; align-items: center; justify-content: center;}
 
 /* ----------ir------------ */
 .header.ir {height: 450px; margin-bottom: 15px; background-image: url("../images/sub_bg_ir.png"); background-repeat: no-repeat; background-size: cover; }
 .headTop.ir {height: 130px; position: absolute; background: none;}
-.headTop.ir.fixed {height: 130px; position: absolute; background: #EE3F22;}
+.headTop.ir.fixed {height: 130px; position: fixed; background: #EE3F22;}
 .headBot.ir {width: 100%; height: 200px; display: flex; align-items: center; justify-content: center;}
 
 /* ----------hrs------------ */
 .header.hrs {height: 450px; margin-bottom: 15px; background-image: url("../images/sub_bg_hr.png"); background-repeat: no-repeat; background-size: cover; }
 .headTop.hrs {height: 130px; position: absolute; background: none;}
-.headTop.hrs.fixed {height: 130px; position: absolute; background: #EE3F22;}
+.headTop.hrs.fixed {height: 130px; position: fixed; background: #EE3F22;}
 .headBot.hrs {width: 100%; height: 200px; display: flex; align-items: center; justify-content: center;}
 
 
