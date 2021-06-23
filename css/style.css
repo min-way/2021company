@@ -180,7 +180,7 @@
 .subMenu {width: 1240px; border-bottom: 1px solid #EE3F22; margin: auto; position: absolute; top: 399px; left: 50%; transform: translate(-50%);}
 .subMenu ul {display: flex;}
 .subMenu li {flex: 1;}
-.subMenu li a {display: block; line-height: 50px; text-align: center; color: #444; background: #F3F3F3;}
+.subMenu li a {display: block; line-height: 50px; text-align: center; color: #444; background: #F3F3F3; transition: 0.3s;}
 .subMenu li.active a {background: #EE3F22; color: #fff;}
 .subMenu li a:hover {background: #EE3F22; color: #fff;}
 
