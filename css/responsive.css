@@ -5,15 +5,15 @@
   .header {height: 500px;}
   .headTop {position: absolute; transform: initial; left: 0;}
   .headTop.fixed {background: none;}
-  .logo {width: 178px; height: 30px;float: inherit; display: block; margin: 0 auto;}
-  .logo img {margin-top: 40px; width: 178px; height: 30px; transition: 0.5s; }
+  .logo {width: 178px; height: 30px; float: inherit; display: block; margin: 0 auto;}
+  .logo img {margin-top: 40px; width: 178px; height: 30px; transition: 0.5s;}
   .logo.on {animation: logoChange 0.6s forwards; float: inherit; display: block; margin: 0 auto; margin-top: 40px; width: 178px; height: 30px; position: fixed; z-index: 5000; top: -40px; left: 30px;}
   @keyframes logoChange {
     0%, 50% {transform: scale(0);}
      100% {transform: scale(1);}
   }
   .conversion {display: none;}
-  .gnb {display: flex; flex-direction: column; justify-content: flex-start; align-items: left; padding: 120px 30px 0 50px;
+  .gnb {display: flex; flex-direction: column; justify-content: flex-start; padding: 120px 30px 0 50px;
     position: fixed; width: 100%; height: 100%; z-index: 2000; top: 0; left: 100%; margin-left: 0;
     background: #FFC905; margin-top: 0;}
   .gnb>li {float: inherit; width: 100%; text-align: left;}
@@ -97,7 +97,7 @@
   .contList li:nth-child(9)>div>div:nth-of-type(1) {display: block; width: 45%; height: 275px; background-image: url("../images/bg_jd.png"); background-repeat: no-repeat; background-size: cover;}
 
   /* ----------vision------------ */
-  .vision {height: 750px; margin-bottom: 20px; background: url("../images/bg_vision.png")no-repeat center; background-size: cover;}
+  .vision {margin-top: 830px; height: 750px; margin-bottom: 20px; background: url("../images/bg_vision.png")no-repeat center; background-size: cover;}
   .viIntro {text-align: center; padding-top: 50px; margin-bottom: 0;}
   .viIntro .viTit {font-size: 20px; margin: 0 auto; padding-bottom: 20px; width: 100%;}
   .viIntro .viTit:before {content: ''; display: block; width: 40px; height: 1px; background: #fff; margin: 0 auto; margin-bottom: 15px;}
@@ -190,10 +190,10 @@
 } /* max-width:700px */
 
 @media screen and (max-width: 640px){
-.contList>li:nth-child(2) .txtLine {width: 350px;}
+.contList>li:nth-child(2) .txtLine {width: 340px;}
 }
 @media screen and (max-width: 540px){
-.contList>li:nth-child(2) .txtLine {width: 300px;}
+.contList>li:nth-child(2) .txtLine {width: 290px;}
 }
 @media screen and (max-width: 450px){
 .contList>li:nth-child(2) .txtLine {width: 270px;}
